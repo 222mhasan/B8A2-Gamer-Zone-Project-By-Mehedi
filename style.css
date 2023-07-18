@@ -262,7 +262,7 @@ body {
 
 /* game link section */
 .game_link_section {
-    margin: 20px 150px;
+    margin: 50px 150px;
 }
 
 .game_link_section_up {
@@ -301,6 +301,81 @@ body {
     display: flex;
     gap: 10px;
     margin-top: 20px;
+}
+
+
+/* footer section */
+.footer{
+    background-color: #0B0223;
+    text-align: center;
+    padding:  40px 0 ;
+    color: #FFF;
+}
+
+.footer_title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+    color: #FFF;
+}
+
+.footer_title img{
+    width: 50px;
+    height: 25px;
+    margin-right: 10px;
+
+}
+
+
+.footer_list ul{
+    display: flex;
+    justify-content: center;
+}
+
+.footer_list li{
+    list-style: none;
+    margin: 20px 25px;
+    font-size: .8rem;
+}
+
+.footer_list ul li a{
+   text-decoration: none;
+   color: #ffffff;
+}
+
+.footer_icon_list{
+    display: flex;
+    justify-content: center;
+}
+
+.footer_icon_list ul{
+    display: flex;
+    color: #FFF;
+}
+
+.footer_icon_list li{
+    list-style: none;
+    color: #FFF;
+}
+.footer_icon_list img{
+    width: 30px;
+    height: 30px;
+    color: #FFF;
+}
+
+.footer_policy{
+    display: flex;
+    justify-content: center;
+}
+
+.footer_policy ul{
+    display: flex;
+
+}
+
+.footer_policy li{
+    list-style: none;
 }
 
 
