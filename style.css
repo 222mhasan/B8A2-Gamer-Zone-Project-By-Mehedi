@@ -1,3 +1,7 @@
+*{
+    margin: 0;
+}
+
 body {
     font-family: 'Work Sans', sans-serif;
 }
@@ -30,13 +34,13 @@ body {
     color: #0B0223;
 }
 
-.nav_right{
+.nav_right {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.nav_right_list > ul{
+.nav_right_list>ul {
     display: flex;
 }
 
@@ -65,36 +69,201 @@ body {
     padding: 10px;
 }
 
+/* banner section */
+.banner {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 170px;
+    background-image: url(images/Group\ 14.png);
+}
+
+.banner_left {
+    margin-top: 75px;
+}
+
+.banner_left h2 {
+    margin-top: 30px;
+    color: #0B0223;
+    font-size: 2.2rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+.banner_left h1 {
+    font-size: 75px;
+    font-style: normal;
+    font-weight: 800;
+    text-transform: uppercase;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+.banner_left_link {
+    margin: 20px 0;
+}
+
+.banner_left_link_item {
+    display: flex;
+    padding: 0 10px;
+    align-items: center;
+
+}
+
+.banner_left_link_item img {
+    width: 20px;
+    height: 24px;
+    margin-right: 10px;
+}
+
+.banner_left_link_item p {
+    color: #534C64;
+    font-size: 1rem;
+    font-weight: 500;
+    text-transform: lowercase;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+.banner_btn button {
+    background: #F144AE;
+    color: #FFF;
+    font-size: .7rem;
+    text-transform: uppercase;
+    padding: 15px 20px;
+    border: 0;
+    border-radius: 48px;
+    cursor: pointer;
+}
+
+#btn_2 {
+    background: #4EC5F7;
+}
 
 
+.banner_right {
+
+}
+
+.banner_right img {
+    width: 70%;
+    margin-left: 250px;
+}
 
 
+/* we are gamer */
+.we_are_gamer{
+    display: flex;
+}
+
+.we_are_gamer_right button{
+    background: #F144AE;
+    color: #FFF;
+    font-size: .7rem;
+    text-transform: uppercase;
+    padding: 15px 20px;
+    border: 0;
+    border-radius: 48px;
+    cursor: pointer;
+}
 
 /* Responsive */
 
 /* for mobile view */
 @media only screen and (max-width : 576px) {
+
+    /* nav section */
     .nav_section {
         flex-direction: column;
     }
 
-    .nav_right{
+    .nav_right {
         flex-direction: column;
     }
-        
 
-    .nav_right_list >ul {
+
+    .nav_right_list>ul {
         flex-direction: column;
-        
+
     }
 
-    .nav_right_list li{
+    .nav_right_list li {
         margin: 10px 0;
         justify-content: center;
         align-items: center;
     }
 
-    .follow_us{
+    /* banner section */
+    .banner {
+        flex-direction: column-reverse;
+        padding: 20px 20px;
+    }
+
+    .banner_left {
+        margin-left: 80px;
+    }
+
+    .banner_right{
+        margin-top: 30px;
+    }
+    .banner_right img {
+        width: 50%;
+        margin: 10px 100px;
+    }
+
+}
+
+
+/* for tablet view */
+
+@media screen and (min-width: 576px) and (max-width: 992px) {
+    /* nav section */
+    .nav_section {
+        flex-direction: column;
+    }
+
+    .nav_right {
+        flex-direction: column;
+    }
+
+
+    .nav_right_list>ul {
+        flex-direction: column;
+
+    }
+
+    .nav_right_list li {
+        margin: 10px 0;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .follow_us {
         margin-left: 30px;
+    }
+
+     /* banner section */
+     .banner {
+        flex-direction: column;
+        padding: 20px 20px;
+    }
+
+    .banner_left {
+        margin: 0 auto;
+    }
+
+    .banner_right{
+
+        margin:  auto;
+    }
+    .banner_right img {
+        width: 70%;
+        margin: auto 120px ;
+
     }
 }
