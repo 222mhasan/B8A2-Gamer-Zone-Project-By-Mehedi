@@ -571,6 +571,7 @@ body {
         margin: 0 auto;
         padding: 0 20px;
         justify-content: center;
+        
     }
 
     .play_instantly_left{
@@ -599,6 +600,7 @@ body {
     /* online games section */
     .online_games {
         margin: 50px auto;
+        padding-bottom:50px ;
     }
 
     .online_games_lower_part {
