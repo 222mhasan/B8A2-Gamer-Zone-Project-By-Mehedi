@@ -436,6 +436,7 @@ body {
 .footer_list li {
     list-style: none;
     font-size: .7rem;
+    cursor: pointer;
 }
 
 .footer_list ul li a {
@@ -459,12 +460,14 @@ body {
     list-style: none;
     color: #FFF;
     padding: 30px 10px;
+
 }
 
 .footer_icon_list img {
     width: 35px;
     height: 35px;
     color: #FFF;
+    cursor: pointer;
 }
 
 .footer_policy {
@@ -482,6 +485,7 @@ body {
     color: rgba(255, 255, 255, 0.60);
     font-size: .6rem;
     padding: 15px 25px;
+    cursor: pointer;
 }
 .footer_copyright{
     padding-bottom: 20px;
