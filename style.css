@@ -76,6 +76,8 @@ body {
     justify-content: space-between;
     padding: 10px 170px;
     background-image: url(images/Group\ 14.png);
+    background-repeat: no-repeat ;
+    background-size: cover;
 }
 
 .banner_left {
@@ -618,9 +620,8 @@ body {
 
     .game_link_section {
         margin-bottom: 50px;
-        display: grid;
-        grid-template-areas:
-        "upper_link     upper_link      upper_link ";
+        display: flex;
+        flex-wrap: wrap;
         justify-content: center;
         align-items: center;
         padding: 0;
