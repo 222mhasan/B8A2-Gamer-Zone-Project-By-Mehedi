@@ -368,13 +368,16 @@ body {
 /* game link section */
 .game_link_section {
     padding-bottom: 50px;
-    display: grid;
+    display: flex;
+    flex-wrap: wrap;
+    /* display: grid;
     grid-template-areas:
-    "upper_link     upper_link      upper_link      upper_link      upper_link ";
+    "upper_link     upper_link      upper_link      upper_link      upper_link "; */
     gap: 10px;
     justify-content: space-around;
     width: 80%;
     margin: 0 auto;
+    border-radius: 45px;
 
 }
 
@@ -385,6 +388,8 @@ body {
     gap:.7rem;
     font: 1rem;
     padding: 10px 10px;
+    /* border: 2px solid rgb(210, 73, 151); */
+    
 }
 
 .upper_link img{
@@ -620,8 +625,10 @@ body {
 
     .game_link_section {
         margin-bottom: 50px;
-        display: flex;
-        flex-wrap: wrap;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        /* display: flex;
+        flex-wrap: wrap; */
         justify-content: center;
         align-items: center;
         padding: 0;
