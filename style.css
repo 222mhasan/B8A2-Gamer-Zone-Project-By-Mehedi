@@ -639,10 +639,6 @@ body {
     }
 
 
-    .online_games_images {
-        padding: 10px;
-    }
-
     /* game link section */
 
     .game_link_section {
@@ -773,6 +769,30 @@ body {
         margin: 0 auto;
         text-align: center;
 
+    }
+
+    /* online game section  */
+    .online_games {
+        margin: 50px auto;
+        padding-bottom: 50px;
+    }
+
+    .online_games_lower_part {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+
+
+    .online_games_lower_part .container {
+        padding: 30px;
+    }
+
+    .online_games_lower_part .container p {
+        font-size: .8rem;
     }
 
 
